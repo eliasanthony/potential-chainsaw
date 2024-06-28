@@ -1,0 +1,20 @@
+ * Data API
+   * ====================================================
+   */
+
+
+  $__default["default"](window).on('load', function () {
+    TodoList._jQueryInterface.call($__default["default"](SELECTOR_DATA_TOGGLE));
+  });
+  /**
+   * jQuery API
+   * ====================================================
+   */
+
+  $__default["default"].fn[NAME$1] = TodoList._jQueryInterface;
+  $__default["default"].fn[NAME$1].Constructor = TodoList;
+
+  $__default["default"].fn[NAME$1].noConflict = function () {
+    $__default["default"].fn[NAME$1] = JQUERY_NO_CONFLICT$1;
+    return TodoList._jQueryInterface;
+  }; 

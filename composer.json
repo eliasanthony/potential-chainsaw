@@ -1,0 +1,25 @@
+{
+  "name": "almasaeed2010/adminlte",
+  "description": "mosiac - integrating support with end user support",
+  "homepage": "http://127.0.0.1/",
+  "keywords": [
+    "css",
+    "js",
+    "less",
+    "responsive",
+    "back-end",
+    "template",
+    "theme",
+    "web",
+    "admin"
+  ],
+  "authors": [
+    {
+      "name": "AJE"
+    }
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/eliasanthony/priv/resp/mosiac_dev"
+  }
+}
